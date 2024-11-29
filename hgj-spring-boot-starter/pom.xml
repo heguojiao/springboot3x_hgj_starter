@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.hgj.springboot3x</groupId>
+        <artifactId>springboot3x_hgj_starter</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <artifactId>hgj-spring-boot-starter</artifactId>
+    <name>Archetype - hgj-spring-boot-starter</name>
+    <url>http://maven.apache.org</url>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.hgj.springboot3x</groupId>
+            <artifactId>hgj-spring-boot-autoconfigure</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <!-- 如果当前starter还需要其他的类库，就在这里引用 -->
+    </dependencies>
+</project>
